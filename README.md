@@ -1,7 +1,7 @@
-# portifolio
+# Portifolio
 Portfolio do desenvolvedor
 
-## tarefas
+## Tarefas
 
 O Controle de tarefas sera realizado no proprio GiHub
 
