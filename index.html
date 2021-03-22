@@ -1,56 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css";>
-    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" ; />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="imagens/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="imagens/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="imagens/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <span>fechar</span>
+      </div>
 
-    </head>
-    <body>
-    
-        <div class="container">
-
-            <div class="hamburguer">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <span>fechar</span>
-            </div> 
-            
-            <header>
-                <div class="img-wrapper">
-                    <img src="imagens/background.jpg" alt="">
-                </div>
-                <div class ="banner">
-                    <h1>Web Developer & Front End Designer</h1>
-                    <p>Paulo Victor M. de Oliveira </p>
-                    <button>Saiba mais </button>
-                </div>
-            </header>
-        
-    
-            <div class="sidebar">
-                <nav>
-                    <ul class="menu">
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
-                    </ul>
-                </nav>
-                <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
+      <header>
+        <div class="img-wrapper">
+          <img src="imagens/background.jpg" alt="" />
         </div>
-    </body>
-<script src="script.js"></script>
+        <div class="banner">
+          <h1>Web Developer & Front End Designer</h1>
+          <p>Paulo Victor M. de Oliveira</p>
+          <button>Saiba mais</button>
+        </div>
+      </header>
+
+      <aside class="sidebar">
+        <nav>
+          <ul class="menu">
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Conhecimento</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Projetos</a>
+            </li>
+            <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Orçamento</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </aside>
+
+      <section class="sessao-conhecimentos">
+        <div class="sessao-reader">
+          <h1>Conhecimentos</h1>
+        </div>
+        <div class="conhecimentos">
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-html5"></i>
+              <h3>HTML</h3>
+            </div>
+            <conhecimento-text>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                ea laudantium fugit neque? Nostrum, ipsam a voluptates
+                exercitationem reiciendis facere numquam, beatae perferendis
+                animi, dolorem quo delectus nihil sunt mollitia!
+              </p>
+            </conhecimento-text>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </div>
+            <conhecimento-text>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+                beatae error? Aliquam alias consectetur fugiat obcaecati in
+                sequi accusamus eius itaque commodi rerum? Nulla, quam quaerat!
+                Animi fugiat neque placeat.
+              </p>
+            </conhecimento-text>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fas fa-pencil-alt"></i>
+              <h3>Design</h3>
+            </div>
+            <conhecimento-text>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate recusandae quos illum inventore voluptatum mollitia.
+                Debitis ipsum delectus unde officia blanditiis adipisci quod
+                exercitationem! Nisi, error! Totam cumque sunt repellendus.
+              </p>
+            </conhecimento-text>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript</h3>
+            </div>
+            <conhecimento-text>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+                necessitatibus accusamus dicta, officia expedita minima,
+                repellendus, architecto beatae impedit ullam ea ut amet mollitia
+                corporis laborum quos. Placeat, rerum soluta.
+              </p>
+            </conhecimento-text>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-bootstrap"></i>
+              <h3>Bootstrap</h3>
+            </div>
+            <conhecimento-text>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                amet, ab assumenda recusandae rerum inventore dolorem similique
+                nostrum tempore aspernatur beatae ea animi molestiae eveniet qui
+                officia! Ad, tenetur neque!
+              </p>
+            </conhecimento-text>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-github"></i>
+              <h3>Git e GitHub</h3>
+            </div>
+            <conhecimento-text>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
+                dolores possimus aut dolorem harum eius alias aliquid distinctio
+                accusantium laudantium totam itaque veritatis facere id debitis,
+                nulla perspiciatis enim rem.
+              </p>
+            </conhecimento-text>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>
