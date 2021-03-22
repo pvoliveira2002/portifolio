@@ -73,12 +73,13 @@
     display: none;/*o span tava aparecendo do lado do botao hamburguer sem eu passar o mouse encima,entao eu botei o display 0 no span e depois no hover eu botei flex e centralizei permitiondo a apariçao dele so encima do hamburguer*/
 }
 .hamburguer span::before{
+    content: "";
     position: absolute;
     border-right: .5rem solid #a044a0FF;
     border-top: .5rem solid transparent;
     border-left: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
-    left: -.1rem;
+    left: -1rem;
     
     
     
